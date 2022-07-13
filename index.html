@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Bài Tập js buổi 2 3</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS v5.2.0-beta1 -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <!-- Bài Tập 1 -->
+    <h1>Bài tập 1</h1>
+    <div class="d-flex justify-content-center">
+      <div class="card w-50">
+        <div class="card-header bg-dark text-white text-center">
+          Tính lương nhân viên
+        </div>
+        <div class="card-body">
+          <div class="form-group">
+            <p>Tiền lương 1 ngày</p>
+            <input class="form-control" type="number" placeholder="Nhập số lương" id="luongNgay" />
+            <p class="mt-4">Số ngày làm</p>
+            <input class="form-control" type="number" placeholder="Nhập số ngày làm" id="soNgayLam" />
+          </div>
+        </div>
+        <div class="card-footer text-center">
+          <button class="btn btn-secondary" id="btnTinhLuong">
+            Tính Lương
+          </button>
+          <div class="mt-2" id="thongBaoTinhLuong"></div>
+        </div>
+      </div>
+    </div>
+    <hr />
+    <!-- Bài tập 2 -->
+    <h1>Bài tập 2</h1>
+    <div class="d-flex justify-content-center">
+      <div class="card w-50">
+        <div class="card-header bg-dark text-white text-center">
+          Tính giá trị trung bình
+        </div>
+        <div class="card-body">
+          <div class="form-group">
+            <input
+              class="form-control"
+              type="number"
+              id="number1"
+              placeholder="Nhập số thứ 1"
+            />
+            <input
+              class="form-control mt-3"
+              type="number"
+              id="number2"
+              placeholder="Nhập số thứ 2"
+            />
+            <input
+              class="form-control mt-3"
+              type="number"
+              id="number3"
+              placeholder="Nhập số thứ 3"
+            />
+            <input
+              class="form-control mt-3"
+              type="number"
+              id="number4"
+              placeholder="Nhập số thứ 4"
+            />
+            <input
+              class="form-control mt-3"
+              type="number"
+              id="number5"
+              placeholder="Nhập số thứ 5"
+            />
+          </div>
+        </div>
+        <div class="card-footer text-center">
+          <button class="btn btn-secondary" id="btnTinhTrungBinh">
+            Tính Trung Bình
+          </button>
+          <div class="mt-2" id="thongBao"></div>
+        </div>
+      </div>
+    </div>
+    <hr />
+    <!-- Bài tập 3 -->
+    <h1>Bài tập 3</h1>
+    <div class="d-flex justify-content-center">
+      <div class="card w-50">
+        <div class="card-header bg-dark text-white text-center">
+          Quy đổi tiền
+        </div>
+        <div class="card-body">
+          <div class="form-group">
+            <input class="form-control" type="number" id="usd" placeholder="Nhập số USD" />
+          </div>
+        </div>
+        <div class="card-footer text-center">
+          <button class="btn btn-secondary" id="btnQuyDoi">Quy Đổi</button>
+          <div class="mt-2" id="thongBaoQuyDoi"></div>
+        </div>
+      </div>
+    </div>
+    <hr>
+    <!-- Bài tập 4 -->
+    <h1>Bài tập 4</h1>
+    <div class="d-flex justify-content-center">
+      <div class="card w-50">
+        <div class="card-header bg-dark text-white text-center">
+          Tính diện tích, chu vi hình chữ nhật
+        </div>
+        <div class="card-body">
+          <div class="form-group">
+            <input class="form-control" type="number" id="width" placeholder="Nhập Chiều Dài" />
+            <input class="form-control mt-3" type="number" id="height" placeholder="Nhập chiều rộng" />
+          </div>
+        </div>
+        <div class="card-footer text-center">
+          <button class="btn btn-secondary" id="btnHCN">Tính</button>
+          <div class="mt-2" id="thongBaoHCN"></div>
+        </div>
+      </div>
+    </div>
+    <hr>
+    <!-- Bài tập 5 -->
+    <h1>Bài tập 5</h1>
+    <div class="d-flex justify-content-center">
+      <div class="card w-50">
+        <div class="card-header bg-dark text-white text-center">
+          Tính tổng 2 ký số
+        </div>
+        <div class="card-body">
+          <div class="form-group">
+            <input class="form-control" type="number" id="twoDigits" placeholder="Nhập số có 2 chữ số" />
+          </div>
+        </div>
+        <div class="card-footer text-center">
+          <button class="btn btn-secondary" id="btnSum">Tính</button>
+          <div class="mt-2" id="thongBaoSum"></div>
+        </div>
+      </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <!-- Bootstrap JavaScript Libraries -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+      integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js"
+      integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./index.js"></script>
+  </body>
+</html>
